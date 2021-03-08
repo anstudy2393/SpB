@@ -16,3 +16,4 @@ spring:
 logging:
   level:
     org.hibernate.SQL: debug # jpa나 hibernate가 생성하는 sql문이 다 보이게함
+    org.hibernate.type: trace
